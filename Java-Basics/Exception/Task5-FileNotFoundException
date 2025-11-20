@@ -1,0 +1,30 @@
+package com.model;
+//checked exception
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        //هنحط اسم الملف الى هنشيك عليه
+        String fileName = "alpha.txt";
+
+        try {
+            // عملنا اوبجكت من كلاس من ثم اعطيناه اسم الملف جو 
+            File file = new File(fileName);
+            Scanner fileReader = new Scanner(file);// محاولة قراءة الملف
+
+            // قراءة الملف سطر سطر
+            while (fileReader.hasNextLine()) {
+                String line = fileReader.nextLine();
+                System.out.println(line);//ومن ثم نطبع السطر سطر لو فعلا محصلش exception
+            }
+
+            fileReader.close();//نقفل الملف 
+        }
+        catch (FileNotFoundException e) {
+            // لو الملف غير موجود
+            System.out.println("File not found! Please check the file path.");
+        }
+    }
+}
