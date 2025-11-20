@@ -1,0 +1,22 @@
+package com.model;
+public class Main {
+    public static void main(String[] args) {
+        String str=null;
+        int x=10;
+        int y=0;
+
+        
+        try{
+            try{
+                str.toUpperCase();
+            }
+            catch(NullPointerException e){
+                System.out.println("NullPointerException");
+            }
+            System.out.println(x/y);
+        }
+        catch(ArithmeticException e){
+            System.out.println("ArithmeticException");
+        }
+    }
+}
