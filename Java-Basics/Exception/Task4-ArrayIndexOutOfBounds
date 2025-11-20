@@ -1,0 +1,24 @@
+package com.model;
+
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+   Scanner sc = new Scanner(System.in);
+ int arr[]=new int[5];//هنا هنعمل مصفوفة بحجم 5 عناصر ودا بدايته 0 الى 4
+ for(int i=0;i<5;i++){
+     arr[i]=sc.nextInt();// ادخلنا العناصر من اليوزر
+ }
+    System.out.println("pls enter a index?");// هنطلب من المستخدم يدخل رقم index 
+ int idx=sc.nextInt();// دا صلب الموضوع لو ادخل رقم فى الرنج المحدد خلاص تمام غير هيحل exception ومن هنا يحصل عملية handle exception
+ try {
+     System.out.println("index :"+idx+" "+arr[idx]);//لو ماحصلش exception هيطبع موقع الاندكس + العنصر نفسه 
+ }catch(ArrayIndexOutOfBoundsException e){
+     System.out.println("Please enter a valid index");//لو حصل exception يطبع هاى الرسالة 
+ }
+
+
+}
+}
+
+
