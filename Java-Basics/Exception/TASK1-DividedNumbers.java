@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//unchecked exception
 public class DivideNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

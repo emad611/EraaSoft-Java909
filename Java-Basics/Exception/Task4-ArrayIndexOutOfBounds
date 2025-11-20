@@ -1,5 +1,5 @@
 package com.model;
-
+//unchecked exception
 import java.util.Scanner;
 
 public class Main {
