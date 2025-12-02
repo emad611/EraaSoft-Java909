@@ -1,0 +1,2 @@
+Sort a list of integers in descending order using streams.
+List<Integer> numbers = Arrays.asList(10, 5, 3, 7, 2, 10, 5, 8, 9, 0, -3, 4);

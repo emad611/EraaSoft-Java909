@@ -1,0 +1,3 @@
+List<String> names = Arrays.asList("Ali", "Mona", "Ahmed", "Sara", "Amr", "Laila", "Kareem", "Nada", "Nour", "Samy", "", null);
+
+Find names starting with a specific letter from a list of strings.

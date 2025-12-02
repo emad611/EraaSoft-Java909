@@ -1,0 +1,3 @@
+Convert all strings to uppercase using stream.
+
+List<String> names = Arrays.asList("Ali", "Mona", "Ahmed", "Sara", "Amr", "Laila", "Kareem", "Nada", "Nour", "Samy", "", null);
