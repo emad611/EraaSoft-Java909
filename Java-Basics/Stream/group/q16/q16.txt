@@ -1,0 +1,1 @@
+Group a list of students by their department.

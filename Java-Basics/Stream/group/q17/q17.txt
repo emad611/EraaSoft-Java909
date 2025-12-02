@@ -1,0 +1,1 @@
+Partition a list of numbers into even and odd using partitioningBy.

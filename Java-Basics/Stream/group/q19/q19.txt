@@ -1,0 +1,1 @@
+Group employees by age and count how many per age.
