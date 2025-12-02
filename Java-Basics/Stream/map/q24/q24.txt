@@ -1,0 +1,1 @@
+Map a list of strings to their lengths

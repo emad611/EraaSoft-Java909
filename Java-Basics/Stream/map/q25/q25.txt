@@ -1,0 +1,1 @@
+Return a list of uppercased words that start with “A”
