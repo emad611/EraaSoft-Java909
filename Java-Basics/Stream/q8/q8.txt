@@ -1,0 +1,1 @@
+Check if any number is divisible by 5 in a list.

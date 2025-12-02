@@ -1,0 +1,22 @@
+package com.java;
+
+import java.lang.reflect.Array;
+import java.security.Key;
+import java.util.*;
+import java.util.function.*;
+import java.util.stream.Collectors;
+
+public class Main {
+    public static void main(String[] args) {
+
+
+        List<Integer> numbers = Arrays.asList(10, 5, 3, 7, 2, 10, 5, 8, 9, 0, -3, 4);
+//                       ياخدوا مقارنة بين الأرقام  get-->شان نطلع القيمة من Optional.
+int max=numbers.stream().max(Integer::compareTo).get();
+        System.out.println(max);
+        int min= numbers.stream().min(Integer::compareTo).get();
+        System.out.println(min);
+    }
+
+    }
+

@@ -1,0 +1,1 @@
+Find the first element in a stream that matches a given condition.

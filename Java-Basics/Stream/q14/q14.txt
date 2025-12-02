@@ -1,0 +1,1 @@
+Multiply all integers in a list together using reduce.
