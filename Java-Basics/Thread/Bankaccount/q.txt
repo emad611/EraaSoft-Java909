@@ -1,0 +1,13 @@
+BankAccount class:
+
+Fields: balance
+
+Methods:
+
+deposit(int amount)
+
+withdraw(int amount)
+
+Use wait() if balance is low and notify() after deposit.
+
+Simulate deposits and withdrawals every 1–2 seconds.

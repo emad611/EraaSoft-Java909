@@ -1,0 +1,1 @@
+Find the second highest number in a list

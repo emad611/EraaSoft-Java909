@@ -1,0 +1,3 @@
+Create and run a simple thread
+
+Task: Create a class that extends Thread, override run() method, and print "Hello from thread". Start the thread.

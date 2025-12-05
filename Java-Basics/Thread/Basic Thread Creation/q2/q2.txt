@@ -1,0 +1,3 @@
+Implement Runnable interface
+
+Task: Create a class that implements Runnable and prints the current thread name and a message.
