@@ -67,19 +67,20 @@ button:hover {
 <h2>Update Item</h2>
 
 <form action="${pageContext.request.contextPath}/itemcontroller" method="post">
-    <input type="hidden" name="action" value="update">
-    <label>ID </label>
-    <input type="text" name="id" value="<%= item != null ? item.getId() : "" %>">
+    <input  hidden type="text" name="action" value="update">
+    <input hidden type="text" name="id" required value="${item.id}">
 
     <label>Item Name</label>
-    <input type="text" name="name" value="<%= item != null ? item.getName() : "" %>" required>
+    <input type="text" name="name" value="${item.name}" required>
 
     <label>Price</label>
-    <input type="number" step="0.01" name="price" value="<%= item != null ? item.getPrice() : "" %>" required>
+    <input type="number" step="0.01" name="price" value="${item.price}" required>
 
     <button type="submit">Update Item</button>
 </form>
-
+<p class="back">
+<a href="${pageContext.request.contextPath}/itemcontroller">Back TO Items</a>
+</p>
 </div>
 </body>
 </html>
