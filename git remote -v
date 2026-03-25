@@ -1,0 +1,38 @@
+[33m257cc98[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m tasks
+[33m1420853[m[33m ([m[1;31morigin/main[m[33m)[m database
+[33m6cd346e[m project
+[33m3a9d3d5[m project
+[33m03cdb43[m db
+[33ma13d836[m database
+[33m0fdbb8a[m servlet
+[33ma50f9f4[m servlet
+[33m9989a07[m jsp
+[33m0ad111f[m jsp
+[33mcb9b839[m db
+[33m3bfec26[m database
+[33m3cae629[m jsp
+[33mbfe9e59[m database
+[33m630f308[m project
+[33mce85530[m project
+[33me507e2a[m thread
+[33m0077331[m stream
+[33m6a79fcf[m stream
+[33md09eb0c[m stream
+[33m9321a53[m Exception
+[33m056266f[m stream
+[33me453b96[m stream
+[33m50fb709[m stream
+[33me7ee14d[m Add Task12-NestedTryCatch (demonstrate nested try-catch blocks)
+[33m7b7b418[m Add Task11-FinallyBlockDemo (demonstrate finally block execution)
+[33m33ac553[m Add Task10-ThrowsKeyword (demonstrate throws keyword and IOException)
+[33m280e8e6[m Add Task9-PropagateException (demonstrate exception propagation)
+[33m6f6be2b[m Add Task7-InvalidAgeException (custom exception for age validation)
+[33m1f6539d[m Add Task6-MultipleCatchBlocks (handle NullPointerException and ArithmeticException)
+[33mfc4c109[m Add Task5-FileNotFoundException (read file and handle exception)
+[33mcc86e60[m Add Task5-FileNotFoundException (read file and handle exception)
+[33md344030[m Add Task4-ArrayIndexOutOfBounds (handle ArrayIndexOutOfBoundsException)
+[33m0f07f92[m Add Task 3: NullPointerException with two classes
+[33m48beb8e[m handle NumberFormatException
+[33m5d7815a[m Merge branch 'main' of https://github.com/emad611/EraaSoft-Java909
+[33m59a4a85[m Add DivideNumbers task in exception folder
+[33m1b0caf0[m Initial commit
