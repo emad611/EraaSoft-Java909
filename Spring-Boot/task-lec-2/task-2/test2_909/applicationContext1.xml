@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans 
+           classpath:org/springframework/beans/factory/xml/spring-beans.xsd
+           http://www.springframework.org/schema/context 
+           classpath:org/springframework/context/config/spring-context.xsd">
+
+ <bean id="personService" class="test2_909.PersonService"></bean>
+   <bean id="accountServiceImpl" class="test2_909.AccountServiceImpl">
+   <property name="personService" ref="personService"></property>
+   </bean>
+   
+</beans>
