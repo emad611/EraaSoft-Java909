@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-boot-909-test2
+
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//localhost:1521/FREEPDB1
+    username: hr
+    password: hr123
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
