@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: Vehicle
+  security:
+    user:
+      name: emad
+      password: 123
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//localhost:1521/FREEPDB1
+    username: hr
+    password: hr123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        dialect: org.hibernate.dialect.OracleDialect
+  messages:
+    basename: i18n/message
